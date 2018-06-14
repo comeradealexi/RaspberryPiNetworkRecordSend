@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Shared">
+      <UniqueIdentifier>{b641d366-f700-4a8f-b444-69a62cdfd2f5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\RaspberryPiShared\include\RaspberryPiShared.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RaspberryPiShared\include\RaspberryPiLog.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkDestination.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="NetworkDestination.cpp" />
+  </ItemGroup>
+</Project>
